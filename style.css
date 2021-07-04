@@ -10,12 +10,13 @@ h1 {
 }
 section {
   display: flex;
+  margin-bottom: 150px;
 }
 .half-width {
   width: 50%;
   padding-left: 5%;
 }
-.hireme-btn {
+.link-btn {
   text-decoration: none;
   background-image: linear-gradient(orange, tomato);
   padding: 10px 40px;
@@ -29,4 +30,9 @@ section {
 .top-banner {
   background-image: url(images/top-banner.png);
   background-repeat: no-repeat;
+}
+.dream-big {
+  background-image: url(images/dream-bg.png);
+  background-repeat: no-repeat;
+  background-position: right;
 }
